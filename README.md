@@ -277,18 +277,6 @@ Potential improvements include:
 
 ---
 
-## 🤝 Acknowledgements
-
-This project is based on the open-source **Bank Management System** originally developed by **chandandas27**.
-
-The project has been adapted and customized for learning and portfolio purposes, including environment configuration, database integration and UI customization.
-
-Original repository:
-
-https://github.com/chandandas27/Bank-Management-System
-
----
-
 ## 👨‍💻 Author
 
 **Shek Malik Basha**
