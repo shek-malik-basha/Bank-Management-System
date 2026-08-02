@@ -1,0 +1,270 @@
+/* ================================
+   BANK MANAGEMENT - MODERN UI
+   ================================ */
+
+.root {
+    -fx-font-family: "Segoe UI";
+    -fx-font-size: 13px;
+    -fx-background-color: #f8fafc;
+}
+
+/* ---------- LABELS ---------- */
+
+.label {
+    -fx-font-family: "Segoe UI";
+    -fx-text-fill: #f8fafc;
+}
+
+/* ---------- BUTTONS ---------- */
+
+.button {
+    -fx-background-color: #2563eb;
+    -fx-text-fill: white;
+    -fx-font-weight: bold;
+    -fx-font-size: 13px;
+
+    -fx-background-radius: 10px;
+    -fx-border-radius: 10px;
+
+    -fx-padding: 10px 22px;
+
+    -fx-cursor: hand;
+
+    -fx-effect: dropshadow(
+        gaussian,
+        rgba(15, 23, 42, 0.18),
+        10,
+        0.15,
+        0,
+        3
+    );
+}
+
+.button:hover {
+    -fx-background-color: #3b82f6;
+
+    -fx-scale-x: 1.03;
+    -fx-scale-y: 1.03;
+
+    -fx-effect: dropshadow(
+        gaussian,
+        rgba(37, 99, 235, 0.45),
+        18,
+        0.25,
+        0,
+        5
+    );
+}
+
+.button:pressed {
+    -fx-background-color: #1d4ed8;
+
+    -fx-scale-x: 0.98;
+    -fx-scale-y: 0.98;
+}
+
+
+/* ---------- INPUT FIELDS ---------- */
+
+.text-field {
+    -fx-background-color: #ffffff;
+
+    -fx-text-fill: #0f172a;
+    -fx-prompt-text-fill: #94a3b8;
+
+    -fx-background-radius: 8px;
+    -fx-border-radius: 8px;
+
+    -fx-border-color: #cbd5e1;
+    -fx-border-width: 1px;
+
+    -fx-padding: 9px 12px;
+
+    -fx-effect: dropshadow(
+        gaussian,
+        rgba(15, 23, 42, 0.06),
+        6,
+        0,
+        0,
+        2
+    );
+}
+
+.text-field:hover {
+    -fx-border-color: #94a3b8;
+}
+
+.text-field:focused {
+    -fx-border-color: #3b82f6;
+    -fx-border-width: 2px;
+
+    -fx-effect: dropshadow(
+        gaussian,
+        rgba(59, 130, 246, 0.25),
+        10,
+        0,
+        0,
+        0
+    );
+}
+
+
+/* ---------- TEXT AREA ---------- */
+
+.text-area {
+    -fx-background-radius: 8px;
+    -fx-border-radius: 8px;
+
+    -fx-border-color: #cbd5e1;
+    -fx-border-width: 1px;
+
+    -fx-text-fill: #0f172a;
+}
+
+.text-area .content {
+    -fx-background-color: white;
+    -fx-background-radius: 8px;
+}
+
+.text-area:focused {
+    -fx-border-color: #3b82f6;
+    -fx-border-width: 2px;
+}
+
+
+/* ---------- COMBO BOX ---------- */
+
+.combo-box {
+    -fx-background-color: white;
+
+    -fx-border-color: #cbd5e1;
+    -fx-border-width: 1px;
+
+    -fx-border-radius: 8px;
+    -fx-background-radius: 8px;
+
+    -fx-padding: 2px;
+
+    -fx-cursor: hand;
+}
+
+.combo-box:hover {
+    -fx-border-color: #3b82f6;
+}
+
+.combo-box:focused {
+    -fx-border-color: #2563eb;
+}
+
+.combo-box .list-cell {
+    -fx-text-fill: #0f172a;
+}
+
+
+/* ---------- DATE PICKER ---------- */
+
+.date-picker {
+    -fx-background-color: white;
+
+    -fx-border-color: #cbd5e1;
+    -fx-border-radius: 8px;
+    -fx-background-radius: 8px;
+}
+
+.date-picker:hover {
+    -fx-border-color: #3b82f6;
+}
+
+
+/* ================================
+   TABLE
+   ================================ */
+
+.table-view {
+    -fx-background-color: white;
+
+    -fx-border-color: #e2e8f0;
+    -fx-border-width: 1px;
+
+    -fx-border-radius: 10px;
+    -fx-background-radius: 10px;
+
+    -fx-effect: dropshadow(
+        gaussian,
+        rgba(15, 23, 42, 0.08),
+        12,
+        0.10,
+        0,
+        3
+    );
+}
+
+.table-view .column-header-background {
+    -fx-background-color: #172554;
+}
+
+.table-view .column-header {
+    -fx-background-color: transparent;
+    -fx-padding: 11px 6px;
+}
+
+.table-view .column-header .label {
+    -fx-text-fill: white;
+    -fx-font-weight: bold;
+    -fx-font-size: 12px;
+}
+
+.table-row-cell {
+    -fx-background-color: white;
+    -fx-border-color: transparent transparent #f1f5f9 transparent;
+
+    -fx-cell-size: 36px;
+}
+
+.table-row-cell:odd {
+    -fx-background-color: #f8fafc;
+}
+
+.table-row-cell:hover {
+    -fx-background-color: #eff6ff;
+}
+
+.table-row-cell:selected {
+    -fx-background-color: #dbeafe;
+}
+
+.table-row-cell:selected .text {
+    -fx-fill: #0f172a;
+}
+
+
+/* ---------- SCROLLBAR ---------- */
+
+.scroll-bar {
+    -fx-background-color: transparent;
+}
+
+.scroll-bar .track {
+    -fx-background-color: transparent;
+}
+
+.scroll-bar .thumb {
+    -fx-background-color: #94a3b8;
+    -fx-background-radius: 20px;
+}
+
+.scroll-bar .thumb:hover {
+    -fx-background-color: #64748b;
+}
+
+
+/* ---------- TOOLTIP ---------- */
+
+.tooltip {
+    -fx-background-color: #0f172a;
+    -fx-text-fill: white;
+
+    -fx-background-radius: 6px;
+
+    -fx-padding: 7px 10px;
+}
